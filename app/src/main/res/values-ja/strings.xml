@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ぜろみらー</string>
+    <string name="hello_sceren_title">はじめまして  せろみらーです。</string>
+    <string name="hello_screen_message">このアプリは画面を共有するアプリです（ミラーリング）。\n
+同じWi-Fiに接続しているパソコンやスマホからこのスマホの画面を共有できます。\n
+使い方もURLを他の端末のブラウザで開くだけ。\n
+映像の切り替え時に一瞬読み込みがあるのは仕様です（WebSocket モード）。</string>
+    <string name="hello_screen_start">はじめる</string>
+    <string name="setting_screen_title">設定画面</string>
+    <string name="setting_stream_title">画面共有(ミラーリング)の設定</string>
+    <string name="setting_stream_description">更新頻度、ビットレートやFPSの設定</string>
+    <string name="setting_about_this_app_title">このアプリについて</string>
+    <string name="setting_about_this_app_description">オープンソースです</string>
+    <string name="setting_license_title">ライセンス</string>
+    <string name="setting_license_description">ありがとうございます！！！</string>
+    <string name="about_this_app_message">
+わたし・・・？、\n
+ブラウザを用意するだけのお手軽画面共有(ミラーリング)アプリ だよ。
+    </string>
+    <string name="about_this_app_open_github">GitHubで開く (オープンソース)</string>
+    <string name="about_this_app_version">バージョン</string>
+    <string name="about_this_app_twitter">Twitter</string>
+    <string name="notification_channel_title">ぜろみらー起動中通知</string>
+    <string name="zeromirror_service_notification_title">ぜろみらー実行中</string>
+    <string name="zeromirror_service_notification_content">ブラウザから見れます</string>
+    <string name="ip_address">IPアドレス</string>
+    <string name="mirroring_setting_video_interval_title">動画の更新頻度 (秒)</string>
+    <string name="mirroring_setting_reset_message">本当にリセットしますか</string>
+    <string name="mirroring_setting_reset">リセット</string>
+    <string name="mirroring_setting_video_interval_description">短くすると、ブラウザに再生される動画との遅延が短くなります。</string>
+    <string name="mirroring_setting_video_bitrate_title">映像ビットレート (Kbps)</string>
+    <string name="mirroring_setting_video_bitrate_description">動画のサイズが大きくなる代わりに、画質が向上するはずです。</string>
+    <string name="mirroring_setting_video_fps_title">映像フレームレート (fps)</string>
+    <string name="mirroring_setting_video_fps_description">動画の滑らかさです。</string>
+    <string name="mirroring_setting_internal_audio_title">内部音声を収録する</string>
+    <string name="mirroring_setting_internal_audio_description">Android 10 以降を利用している場合は、端末の音声を動画に合成できるようになります。 マイクの権限が必要です。</string>
+    <string name="mirroring_setting_audio_bitrate_title">音声ビットレート (Kbps)</string>
+    <string name="mirroring_setting_audio_bitrate_description">音質です。</string>
+    <string name="mirroring_setting_port_title">ポート番号</string>
+    <string name="mirroring_setting_port_description">基本的にデフォルトのままでいいと思います。</string>
+    <string name="home_screen_permission_result_fail">権限が拒否されました (ヽ´ω`)</string>
+    <string name="time_component_time_hello">こんにちは</string>
+    <string name="time_component_time_now">今の時間</string>
+    <string name="mirroring_component_start">画面共有開始</string>
+    <string name="mirroring_component_end">画面共有終了</string>
+    <string name="hello_card_title">はじめまして ぜろみらーです</string>
+    <string name="hello_card_description">このアプリについてのちょっとした説明が見れます。</string>
+    <string name="url_card_title">視聴用URL</string>
+    <string name="url_card_description">このURLをパソコンやスマホのブラウザのアドレス欄へ入力すると画面共有を見ることが出来ます。</string>
+    <string name="url_card_share">共有</string>
+    <string name="url_card_open_browser">ブラウザで確認する</string>
+    <string name="internal_audio_permission_card_title">Android 10 以降 内部音声を共有できます</string>
+    <string name="internal_audio_permission_card_description">画面共有に内部の音声を含めることができます。内部音声を含めるためには、マイク権限が必要ですのでお願いします。</string>
+    <string name="internal_audio_permission_card_button">マイクの権限を付与</string>
+    <string name="stream_info_title">画面共有 / 画質 情報</string>
+    <string name="stream_info_internal_audio">内部音声を含める (Android 10 以降)</string>
+    <string name="stream_info_enable">有効</string>
+    <string name="stream_info_disable">無効</string>
+    <string name="stream_info_internal_audio_permission_error">(マイクの権限が付与されていないため、利用できません)</string>
+    <string name="stream_info_interval">更新頻度 (秒)</string>
+    <string name="stream_info_video_bitrate">映像ビットレート</string>
+    <string name="stream_info_video_fps">映像フレームレート (fps)</string>
+    <string name="stream_info_audio_bitrate">音声ビットレート</string>
+    <string name="stream_info_setting_button">設定を変更する</string>
+    <string name="url_card_qr_code">QRコード</string>
+    <string name="mirroring_setting_resolution">動画の解像度を指定する</string>
+    <string name="mirroring_setting_resolution_description">指定しない場合は画面の解像度になります。</string>
+    <string name="mirroring_setting_resolution_video_height">動画の高さ</string>
+    <string name="mirroring_setting_resolution_video_width">動画の幅</string>
+    <string name="mirroring_setting_radvanced">上級者 / パワーユーザー 向けの設定</string>
+    <string name="mirroring_setting_resolution_hint">横 1280 / 縦 720 など</string>
+    <string name="stream_info_video_resolution">動画の解像度</string>
+    <string name="streaming_setting_type_mpeg_dash_title">MPEG-DASH モード</string>
+    <string name="streaming_setting_type_websocket_title">WebSocket モード</string>
+    <string name="streaming_setting_type_mpeg_dash_description">
+おすすめの方式です。\n
+MPEG-DASHというライブ配信でも使われている技術を使いミラーリングを行います。\n
+映像コーデックはVP9、音声コーデックはOpus、コンテナはWebMを利用します。\n
+MediaSource Extensions API が利用可能なブラウザが必要です。
+    </string>
+    <string name="streaming_setting_type_websocket_description">
+細切れにした動画をWebSocketで送信してミラーリングを行います。\n
+映像コーデックはH.264、音声コーデックはAAC、コンテナはMP4を利用します。
+    </string>
+    <string name="streaming_setting_type_title">ストリーミング方式の選択</string>
+    <string name="post_notification_permission_card_title">通知領域にミラーリング情報を表示できます</string>
+    <string name="post_notification_permission_card_description">Android 13 以降は通知を送信するための権限が必要になりました。権限がなくても利用できますが、通知領域にIPアドレスやQRコードを表示できます。</string>
+    <string name="post_notification_permission_card_button">通知権限を付与</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_title">動画コーデックにVP8を利用する</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_description">MPEG-DASHモードのみ。VP9のエンコーダーがない場合用です。</string>
+    <string name="mirroring_setting_mirroring_external_display_title">外部ディスプレイの出力をミラーリングする</string>
+    <string name="mirroring_setting_mirroring_external_display_description">外部ディスプレイの出力に対応したアプリの場合、端末側のミラーリングではなく、外部ディスプレイ側の出力をミラーリングするようにします。</string>
+    <string name="mirroring_setting_mirroring_external_display_hint">外部ディスプレイと接続した時の挙動をします</string>
+    <string name="zeromirror_service_stop_because_setting_update">ミラーリング中に設定が変更されたので、終了しました。</string>
+    <string name="zeromirror_service_partial_mirroring_pause">
+現在アプリが画面に表示されていません。\n
+(他のアプリが画面に表示されています)\n
+\n
+アプリが画面に表示されるようになると、\n
+ミラーリングが再開されます。
+    </string>
+    <string name="hello_partial_mirroring_card_description">
+Android 14 QPR2 から利用できる、部分的な画面共有に対応しました。\n
+画面全体ではなく、指定したアプリの部分だけミラーリングが可能になりました。\n
+ステータスバーや通知は映り込みません！
+    </string>
+</resources>

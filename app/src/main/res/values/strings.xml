@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">ZeroMirror</string>
+    <string name="hello_sceren_title">Nice to meet you, this is ZeroMirror.</string>
+    <string name="hello_screen_message">This app is an app to share the screen (mirroring).\n
+You can share the screen of this smartphone from a computer or smartphone connected to the same Wi-Fi.\n
+To use it, just open the URL in the browser of another terminal.\n
+It is a specification that there is a momentary reading when switching images (WebSocket Mode).</string>
+    <string name="hello_screen_start">Start</string>
+    <string name="setting_screen_title">Settings</string>
+    <string name="setting_stream_title">Screen sharing (mirroring) settings</string>
+    <string name="setting_stream_description">Update frequency, bit rate and FPS settings</string>
+    <string name="setting_about_this_app_title">About this app</string>
+    <string name="setting_about_this_app_description">Open source</string>
+    <string name="setting_license_title">License</string>
+    <string name="setting_license_description">thank you !!!</string>
+    <string name="about_this_app_message">
+I...? ,\n
+It\'s a simple screen sharing (mirroring) application that requires only a browser.
+    </string>
+    <string name="about_this_app_open_github">Open on GitHub (open source)</string>
+    <string name="about_this_app_version">Version</string>
+    <string name="about_this_app_twitter">Twitter</string>
+    <string name="notification_channel_title">Notification during startup of ZeroMirror</string>
+    <string name="zeromirror_service_notification_title">ZeroMirror is running</string>
+    <string name="zeromirror_service_notification_content">You can see it from your browser</string>
+    <string name="ip_address">IP address</string>
+    <string name="mirroring_setting_video_interval_title">Video update frequency (seconds)</string>
+    <string name="mirroring_setting_reset_message">Do you really want to reset</string>
+    <string name="mirroring_setting_reset">reset</string>
+    <string name="mirroring_setting_video_interval_description">Shortening it will reduce the delay with the video played in the browser.</string>
+    <string name="mirroring_setting_video_bitrate_title">Video bit rate (Kbps)</string>
+    <string name="mirroring_setting_video_bitrate_description">The image quality should improve at the cost of increasing the size of the video.</string>
+    <string name="mirroring_setting_video_fps_title">Video frame rate (fps)</string>
+    <string name="mirroring_setting_video_fps_description">The smoothness of the video.</string>
+    <string name="mirroring_setting_internal_audio_title">Record internal audio</string>
+    <string name="mirroring_setting_internal_audio_description">If you are using Android 10 or later, you will be able to combine the audio of your device with the video. Requires microphone privileges.</string>
+    <string name="mirroring_setting_audio_bitrate_title">Audio bit rate (Kbps)</string>
+    <string name="mirroring_setting_audio_bitrate_description">The sound quality.</string>
+    <string name="mirroring_setting_port_title">port number</string>
+    <string name="mirroring_setting_port_description">Basically, you can keep the default.</string>
+    <string name="home_screen_permission_result_fail">Permission denied (ヽ ´ω`)</string>
+    <string name="time_component_time_hello">Hello</string>
+    <string name="time_component_time_now">current time</string>
+    <string name="mirroring_component_start">Start screen sharing</string>
+    <string name="mirroring_component_end">End of screen sharing</string>
+    <string name="hello_card_title">Nice to meet you ZeroMirror</string>
+    <string name="hello_card_description">You can see a little explanation about this app.</string>
+    <string name="url_card_title">Viewing URL</string>
+    <string name="url_card_description">You can see the screen sharing by entering this URL in the address field of the browser of your PC or smartphone.</string>
+    <string name="url_card_share">Share</string>
+    <string name="url_card_open_browser">Check with a browser</string>
+    <string name="internal_audio_permission_card_title">Android 10 and above can share internal audio</string>
+    <string name="internal_audio_permission_card_description">You can include internal audio in your screen share. Microphone permission is required to include internal audio.</string>
+    <string name="internal_audio_permission_card_button">Grant microphone privileges</string>
+    <string name="stream_info_title">Screen sharing / image quality information</string>
+    <string name="stream_info_internal_audio">Include internal audio (Android 10 and above)</string>
+    <string name="stream_info_enable">Enable</string>
+    <string name="stream_info_disable">Disable</string>
+    <string name="stream_info_internal_audio_permission_error">(Cannot be used because the microphone authority is not granted)</string>
+    <string name="stream_info_interval">Update frequency (seconds)</string>
+    <string name="stream_info_video_bitrate">Video bit rate</string>
+    <string name="stream_info_video_fps">Video frame rate (fps)</string>
+    <string name="stream_info_audio_bitrate">Audio bit rate</string>
+    <string name="stream_info_setting_button">Change settings</string>
+    <string name="url_card_qr_code">QR code</string>
+    <string name="mirroring_setting_resolution">Specify the video resolution</string>
+    <string name="mirroring_setting_resolution_description">If not specified, the screen resolution will be used.</string>
+    <string name="mirroring_setting_resolution_video_height">Video height</string>
+    <string name="mirroring_setting_resolution_video_width">Video width</string>
+    <string name="mirroring_setting_radvanced">Settings for advanced / power users</string>
+    <string name="mirroring_setting_resolution_hint">Horizontal 1280 / Vertical 720, etc.</string>
+    <string name="stream_info_video_resolution">Video resolution</string>
+    <string name="streaming_setting_type_mpeg_dash_title">MPEG-DASH mode</string>
+    <string name="streaming_setting_type_websocket_title">WebSocket mode</string>
+    <string name="streaming_setting_type_mpeg_dash_description">
+Recommendation.\n
+Mirroring is performed using a technology called MPEG-DASH, which is also used in live distribution.\n
+The video codec uses VP9, the audio codec uses Opus, and the container uses WebM.\n
+Requires a browser with the MediaSource Extensions API available.
+    </string>
+    <string name="streaming_setting_type_websocket_description">
+Mirroring is performed by transmitting the chopped video with WebSocket.\n
+The video codec is H.264, the audio codec is AAC, and the container is MP4.
+    </string>
+    <string name="streaming_setting_type_title">Choosing a streaming method</string>
+    <string name="post_notification_permission_card_title">Can display mirroring information in notification area</string>
+    <string name="post_notification_permission_card_description">Android 13 and higher now require permission to send notifications. You can use it without authorization, but you can display the IP address and QR code in the notification area.</string>
+    <string name="post_notification_permission_card_button">Grant notification rights</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_title">Use VP8 for video codec</string>
+    <string name="mirroring_setting_mpeg_dash_vp8_description">MPEG-DASH mode only. For those who don\'t have a VP9 encoder.</string>
+    <string name="mirroring_setting_mirroring_external_display_title">Mirror the output of your external display</string>
+    <string name="mirroring_setting_mirroring_external_display_description">For apps that support external display output, mirror the output of the external display instead of mirroring the device.</string>
+    <string name="mirroring_setting_mirroring_external_display_hint">Behavior when connected to an external display</string>
+    <string name="zeromirror_service_stop_because_setting_update">Settings changed during mirroring, so exited.</string>
+    <string name="zeromirror_service_partial_mirroring_pause">
+The app is currently not displayed on the screen.\n
+(Another app is displayed on the screen)\n
+\n
+Once the app appears on the screen,\n
+Mirroring will resume.
+    </string>
+    <string name="hello_partial_mirroring_card_description">
+Partial screen sharing is now supported starting with Android 14 QPR2.\n
+It is now possible to mirror only the specified app part instead of the entire screen.\n
+Status bar and notifications are not reflected!
+    </string>
+</resources>
